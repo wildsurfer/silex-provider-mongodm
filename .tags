@@ -1,0 +1,121 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert (Pathed by Dmitry Frank, dimon.frank@gmail.com)	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8.1	//
+IsdkServiceProvider	/home/kuzma/workspace/baydoor/silex-provider-mongodm/src/Wildsurfer/Provider/IsdkServiceProvider.php	/^class IsdkServiceProvider implements ServiceProviderInterface$/;"	c	language:PHP
+IsdkServiceProviderTest	/home/kuzma/workspace/baydoor/silex-provider-mongodm/tests/Wildsurfer/Tests/Provider/MongodmServiceProviderTest.php	/^class IsdkServiceProviderTest extends \\PHPUnit_Framework_TestCase$/;"	c	language:PHP
+MongoDB	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^class MongoDB $/;"	c	language:PHP
+MongodmServiceProvider	/home/kuzma/workspace/baydoor/silex-provider-mongodm/src/Wildsurfer/Provider/MongodmServiceProvider.php	/^class MongodmServiceProvider implements ServiceProviderInterface$/;"	c	language:PHP
+__construct	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	protected function __construct($name, array $config)$/;"	f	language:PHP
+__destruct	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	final public function __destruct()$/;"	f	language:PHP
+__toString	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	final public function __toString()$/;"	f	language:PHP
+_call	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	protected function _call($command, array $arguments = array(), array $values = NULL)$/;"	f	language:PHP
+_config	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^		$this->_config = $config;$/;"	v	language:PHP
+_config	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	protected $_config;$/;"	v	language:PHP
+_connected	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^		$this->_connected = true;$/;"	v	language:PHP
+_connected	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	protected $_connected = FALSE;$/;"	v	language:PHP
+_connected	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	protected $_connected = FALSE;$/;"	v	language:PHP
+_connection	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^		$this->_connection = new $class($config['hostnames'], $options);$/;"	v	language:PHP
+_connection	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	protected $_connection;$/;"	v	language:PHP
+_db	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^		$this->_db = $this->_connection = NULL;$/;"	v	language:PHP
+_db	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^		$this->_db = $this->_connection->selectDB($config['database']);$/;"	v	language:PHP
+_db	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	protected $_db;$/;"	v	language:PHP
+_name	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^		$this->_name = $name;$/;"	v	language:PHP
+_name	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	protected $_name;$/;"	v	language:PHP
+app	/home/kuzma/workspace/baydoor/silex-provider-mongodm/tests/Wildsurfer/Tests/Provider/MongodmServiceProviderTest.php	/^        $app = new Application();$/;"	v	language:PHP
+arg1	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^			$arg1 = isset($this->_config['gridFS']['arg1'])$/;"	v	language:PHP
+args	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function execute( $code, array $args = array() )$/;"	v	language:PHP
+arguments	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	protected function _call($command, array $arguments = array(), array $values = NULL)$/;"	v	language:PHP
+batch_insert	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function batch_insert ( $collection_name, array $a )$/;"	f	language:PHP
+boot	/home/kuzma/workspace/baydoor/silex-provider-mongodm/src/Wildsurfer/Provider/IsdkServiceProvider.php	/^    public function boot(Application $app)$/;"	f	language:PHP
+boot	/home/kuzma/workspace/baydoor/silex-provider-mongodm/src/Wildsurfer/Provider/MongodmServiceProvider.php	/^    public function boot(Application $app)$/;"	f	language:PHP
+c	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^			$c = $this->_db->selectCollection($collection_name);$/;"	v	language:PHP
+capped	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function create_collection ( string $name, $capped= FALSE, $size= 0, $max= 0 )$/;"	v	language:PHP
+class	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^			$class = '\\MongoDB';$/;"	v	language:PHP
+class	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^		$class = '\\MongoClient';$/;"	v	language:PHP
+command	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function command( array $data)$/;"	f	language:PHP
+condition	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function group( $collection_name, $keys , array $initial , $reduce, array $condition= array() )$/;"	v	language:PHP
+config	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$config = self::config($name);$/;"	v	language:PHP
+config	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^			$config = (require $path); $/;"	v	language:PHP
+config	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^		$config = $this->_config['connection'] + array($/;"	v	language:PHP
+config	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public static $config = array();$/;"	v	language:PHP
+config	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public static $config = array();$/;"	v	language:PHP
+config	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public static function instance($name = 'default', array $config = NULL)$/;"	v	language:PHP
+config	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public static function setConfigBlock($block = 'default', $config = array()) {$/;"	v	language:PHP
+config	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	static function config($config_block){$/;"	f	language:PHP
+config_block	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^			$config_block = $env;$/;"	v	language:PHP
+config_file	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^		$config_file = "database.php";$/;"	v	language:PHP
+connect	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function connect()$/;"	f	language:PHP
+count	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function count( $collection_name, array $query = array() )$/;"	f	language:PHP
+create_collection	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function create_collection ( string $name, $capped= FALSE, $size= 0, $max= 0 )$/;"	f	language:PHP
+criteria	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function get_file(array $criteria = array())$/;"	v	language:PHP
+criteria	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function remove_file( array $criteria = array(), array $options = array())$/;"	v	language:PHP
+db	/home/kuzma/workspace/baydoor/silex-provider-mongodm/tests/Wildsurfer/Tests/Provider/MongodmServiceProviderTest.php	/^        $db = 'database';$/;"	v	language:PHP
+disconnect	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function disconnect()$/;"	f	language:PHP
+drop_collection	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function drop_collection( $name )$/;"	f	language:PHP
+ensure_index	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function ensure_index ( $collection_name, $keys, $options = array())$/;"	f	language:PHP
+env	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^		$env =  (getenv('APPLICATION_ENV') ? getenv('APPLICATION_ENV') : '');$/;"	v	language:PHP
+execute	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function execute( $code, array $args = array() )$/;"	f	language:PHP
+extra	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function set_file($filename, array $extra = array(), array $options = array())$/;"	v	language:PHP
+extra	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function set_file_bytes($bytes, array $extra = array(), array $options = array())$/;"	v	language:PHP
+find	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function find($collection_name, array $query = array(), array $fields = array())$/;"	f	language:PHP
+find_one	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function find_one($collection_name, array $query = array(), array $fields = array())$/;"	f	language:PHP
+getDB	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function &getDB()$/;"	f	language:PHP
+getRef	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function getRef(array $ref){$/;"	f	language:PHP
+get_file	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function get_file(array $criteria = array())$/;"	f	language:PHP
+get_files	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function get_files(array $query = array(), array $fields = array())$/;"	f	language:PHP
+gridFS	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function gridFS($arg1 = NULL)$/;"	f	language:PHP
+group	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function group( $collection_name, $keys , array $initial , $reduce, array $condition= array() )$/;"	f	language:PHP
+host	/home/kuzma/workspace/baydoor/silex-provider-mongodm/tests/Wildsurfer/Tests/Provider/MongodmServiceProviderTest.php	/^        $host = 'localhost:27017';$/;"	v	language:PHP
+insert	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function insert($collection_name, array $a, $options = array())$/;"	f	language:PHP
+instance	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public static function instance($name = 'default', array $config = NULL)$/;"	f	language:PHP
+instances	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public static $instances = array();$/;"	v	language:PHP
+instances	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public static $instances = array();$/;"	v	language:PHP
+isdk	/home/kuzma/workspace/baydoor/silex-provider-mongodm/src/Wildsurfer/Provider/IsdkServiceProvider.php	/^            $isdk = new \\iSDK();$/;"	v	language:PHP
+last_error	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function last_error()$/;"	f	language:PHP
+m	/home/kuzma/workspace/baydoor/silex-provider-mongodm/tests/Wildsurfer/Tests/Provider/MongodmServiceProviderTest.php	/^        $m = $app['mongodm'];$/;"	v	language:PHP
+options	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^			$options = array();$/;"	v	language:PHP
+options	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function ensure_index ( $collection_name, $keys, $options = array())$/;"	v	language:PHP
+options	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function insert($collection_name, array $a, $options = array())$/;"	v	language:PHP
+options	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function remove($collection_name, array $criteria, $options = array())$/;"	v	language:PHP
+options	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function save($collection_name, array $a, $options = array())$/;"	v	language:PHP
+options	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function update($collection_name, array $criteria, array $newObj, $options = array())$/;"	v	language:PHP
+path	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^		$path = __DIR__ . "\/..\/..\/..\/config\/" .$config_file;$/;"	v	language:PHP
+prev_error	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function prev_error()$/;"	f	language:PHP
+query	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function count( $collection_name, array $query = array() )$/;"	v	language:PHP
+query	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function find($collection_name, array $query = array(), array $fields = array())$/;"	v	language:PHP
+query	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function find_one($collection_name, array $query = array(), array $fields = array())$/;"	v	language:PHP
+query	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function get_files(array $query = array(), array $fields = array())$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $c->batchInsert($values);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $c->count($query);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $c->ensureIndex($keys, $options);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $c->find($query, $fields);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $c->findOne($query, $fields);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $c->group($keys, $initial, $reduce, $condition);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $c->insert($values, $options);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $c->remove($criteria, $options);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $c->save($values, $options);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $c->update($criteria, $values, $options);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $this->_db->command($values);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $this->_db->createCollection($name, $capped, $size, $max);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $this->_db->dropCollection($name);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $this->_db->execute($code, $args);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $this->gridFS()->find($query, $fields);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $this->gridFS()->findOne($criteria);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $this->gridFS()->remove($criteria, $options);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $this->gridFS()->storeBytes($bytes, $extra, $options);$/;"	v	language:PHP
+r	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^				$r = $this->gridFS()->storeFile($filename, $extra, $options);$/;"	v	language:PHP
+register	/home/kuzma/workspace/baydoor/silex-provider-mongodm/src/Wildsurfer/Provider/IsdkServiceProvider.php	/^    public function register(Application $app)$/;"	f	language:PHP
+register	/home/kuzma/workspace/baydoor/silex-provider-mongodm/src/Wildsurfer/Provider/MongodmServiceProvider.php	/^    public function register(Application $app)$/;"	f	language:PHP
+remove	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function remove($collection_name, array $criteria, $options = array())$/;"	f	language:PHP
+remove_file	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function remove_file( array $criteria = array(), array $options = array())$/;"	f	language:PHP
+reset_error	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function reset_error()$/;"	f	language:PHP
+save	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function save($collection_name, array $a, $options = array())$/;"	f	language:PHP
+setConfig	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public static function setConfig($config) {$/;"	f	language:PHP
+setConfigBlock	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public static function setConfigBlock($block = 'default', $config = array()) {$/;"	f	language:PHP
+set_file	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function set_file($filename, array $extra = array(), array $options = array())$/;"	f	language:PHP
+set_file_bytes	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function set_file_bytes($bytes, array $extra = array(), array $options = array())$/;"	f	language:PHP
+testRegister	/home/kuzma/workspace/baydoor/silex-provider-mongodm/tests/Wildsurfer/Tests/Provider/MongodmServiceProviderTest.php	/^    public function testRegister()$/;"	f	language:PHP
+update	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function update($collection_name, array $criteria, array $newObj, $options = array())$/;"	f	language:PHP

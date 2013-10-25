@@ -1,0 +1,24 @@
+{
+    "name": "wildsurfer/silex-provider-mongodm",
+    "keywords": ["mongo","mongodb","mongodm","silex"],
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Ivan Kuznetsov",
+        "email": "kuzma.wm@gmail.com",
+        "role": "Developer"
+    }
+    ],
+    "require":{
+        "purekid/mongodm": "dev-master",
+        "silex/silex": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.5"
+    },
+    "autoload":{
+        "psr-0":{
+            "Wildsurfer\\Provider\\":"src"
+        }
+    }
+}
