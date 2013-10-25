@@ -2,6 +2,12 @@
     "name": "wildsurfer/silex-provider-mongodm",
     "keywords": ["mongo","mongodb","mongodm","silex"],
     "license": "MIT",
+    "repositories": [
+            {
+                "type": "vcs",
+                "url": "https://github.com/wildsurfer/mongodm.git"
+            }
+        ],
     "authors": [
     {
         "name": "Ivan Kuznetsov",
@@ -10,7 +16,7 @@
     }
     ],
     "require":{
-        "purekid/mongodm": "dev-master",
+        "purekid/mongodm": "dev-patch-1",
         "silex/silex": "~1.0"
     },
     "require-dev": {
