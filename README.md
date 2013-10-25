@@ -1,7 +1,7 @@
-silex-provider-infusionsoft-isdk
+silex-provider-mongodm
 ================================
 
-Infusionsoft iSDK service provider for silex micro-framework
+Mongodm service provider for silex micro-framework. Check here: https://github.com/purekid/mongodm
 
 Example
 =======
@@ -10,25 +10,25 @@ Example
 <?php
 use Silex\Application;
 
-$key = 'secretkey';
-$appName = 'appname';
-
+$host = 'localhost:27017';
+$db = 'database';
 $app = new Application();
-$app->register(new IsdkServiceProvider(), array(
-    'isdk.key' => $key,
-    'isdk.appName' => $appName
-));
+$app->register(new MongodmServiceProvider(), array(
+            "mongodm.host" => $host,
+            "mongodm.db" => $db
+            ));
+$m = $app['mongodm'];
+$m->findOne('MyCollection',array('name' => 'my name'));
 
-$paymentOptions = $app['isdk']->getAllPaymentOptions();
 ```
 
 Install with Composer
 =====================
 
 ``` js
-  {
-      require: {
-          "wildsurfer/silex-provider-infusionsoft-isdk": "dev-master"
-      }
-  }
+{
+require: {
+             "wildsurfer/silex-provider-mongodm": "dev-master"
+         }
+}
 ```
