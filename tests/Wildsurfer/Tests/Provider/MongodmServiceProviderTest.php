@@ -5,7 +5,7 @@ namespace Wildsurfer\Tests\Provider;
 use Silex\Application;
 use Silex\Provider\SerializerServiceProvider;
 use Wildsurfer\Provider\MongodmServiceProvider;
-
+use ReflectionClass;
 /*
  * MongodmServiceProviderTest
  */
@@ -26,8 +26,16 @@ class IsdkServiceProviderTest extends \PHPUnit_Framework_TestCase
             "mongodm.options" => $options
         ));
         $m = $app['mongodm'];
+
         $this->assertInstanceOf("\Purekid\Mongodm\MongoDB", $m);
         $this->assertTrue($m->connect(), true);
         $this->assertInstanceOf('\MongoDB', $m->getDB());
+
+        $config = $m::config('default');
+        $c = $config['connection'];
+
+        $this->assertEquals($c['hostnames'], $host);
+        $this->assertEquals($c['database'], $db);
+        $this->assertEquals($c['options'], $options);
     }
 }
