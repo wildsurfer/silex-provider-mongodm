@@ -20,12 +20,12 @@ class MongodmServiceProvider implements ServiceProviderInterface
             MongoDB::setConfigBlock('default', array(
                 'connection' => array(
                     'hostnames' => $app['mongodm.host'],
-                    'database'  => $app['mongodm.db']
+                    'database'  => $app['mongodm.db'],
+                    'options'  => $app['mongodm.options']
                 )
             ));
             return MongoDB::instance();
         });
-        //$app['mongodm']; //Do not remove! TODO: learn why
     }
 
     /*

@@ -76,6 +76,7 @@ instances	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mo
 isdk	/home/kuzma/workspace/baydoor/silex-provider-mongodm/src/Wildsurfer/Provider/IsdkServiceProvider.php	/^            $isdk = new \\iSDK();$/;"	v	language:PHP
 last_error	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function last_error()$/;"	f	language:PHP
 m	/home/kuzma/workspace/baydoor/silex-provider-mongodm/tests/Wildsurfer/Tests/Provider/MongodmServiceProviderTest.php	/^        $m = $app['mongodm'];$/;"	v	language:PHP
+options	/home/kuzma/workspace/baydoor/silex-provider-mongodm/tests/Wildsurfer/Tests/Provider/MongodmServiceProviderTest.php	/^        $options = array('w' => 1);$/;"	v	language:PHP
 options	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^			$options = array();$/;"	v	language:PHP
 options	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function ensure_index ( $collection_name, $keys, $options = array())$/;"	v	language:PHP
 options	/home/kuzma/workspace/baydoor/silex-provider-mongodm/vendor/purekid/mongodm/src/Purekid/Mongodm/MongoDB.php	/^	public function insert($collection_name, array $a, $options = array())$/;"	v	language:PHP

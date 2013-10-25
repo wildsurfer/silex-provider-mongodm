@@ -12,10 +12,12 @@ use Silex\Application;
 
 $host = 'localhost:27017';
 $db = 'database';
+$options = array('w' => 1);
 $app = new Application();
 $app->register(new MongodmServiceProvider(), array(
             "mongodm.host" => $host,
-            "mongodm.db" => $db
+            "mongodm.db" => $db,
+            "mongodm.options" => $options
             ));
 $m = $app['mongodm'];
 $m->findOne('MyCollection',array('name' => 'my name'));
