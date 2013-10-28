@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "cac4770f7d1a3f355ad1bb5af2dc4b44",
+    "hash": "21652be980aa7360186cc9ac77144181",
     "packages": [
         {
             "name": "pimple/pimple",
@@ -91,16 +91,16 @@
         },
         {
             "name": "purekid/mongodm",
-            "version": "dev-patch-1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wildsurfer/mongodm.git",
-                "reference": "d5b55c68d424576c0628a3c11fe904bfb0ae791f"
+                "url": "https://github.com/purekid/mongodm.git",
+                "reference": "89313fe994f603aaf952b431fad54df7d423bb25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wildsurfer/mongodm/zipball/d5b55c68d424576c0628a3c11fe904bfb0ae791f",
-                "reference": "d5b55c68d424576c0628a3c11fe904bfb0ae791f",
+                "url": "https://api.github.com/repos/purekid/mongodm/zipball/89313fe994f603aaf952b431fad54df7d423bb25",
+                "reference": "89313fe994f603aaf952b431fad54df7d423bb25",
                 "shasum": ""
             },
             "require-dev": {
@@ -112,6 +112,7 @@
                     "Purekid\\Mongodm\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -127,10 +128,7 @@
                 "mongodm",
                 "orm"
             ],
-            "support": {
-                "source": "https://github.com/wildsurfer/mongodm/tree/patch-1"
-            },
-            "time": "2013-10-25 17:29:52"
+            "time": "2013-10-28 01:48:23"
         },
         {
             "name": "silex/silex",
